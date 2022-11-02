@@ -1,0 +1,64 @@
+.nameContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.nameContainer span {
+  color: #7a7c82;
+  font-weight: 500;
+  font-size: x-large;
+  height: 100%;
+  margin-left: 10px;
+}
+.nameContainer__name {
+}
+.nameContainer__rank {
+}
+.nameContainer__buttons {
+
+}
+.nameContainer__buttons button {
+  cursor: pointer;
+  color: white;
+  margin: 2px;
+  background-color: #989999;
+  border-radius: 5px;
+  border: 1px solid #989999;
+  height: 50px;
+  font-weight: 600;
+}
+.nameContainer__buttons button:hover {
+  background-color: #b5b7b7;
+}
+.nameContainer-edit {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.nameContainer-edit button {
+  cursor: pointer;
+  color: white;
+  margin: 2px;
+  background-color: #989999;
+  border-radius: 5px;
+  border: 1px solid #989999;
+  height: 50px;
+  width: 70px;
+  font-weight: 600;
+}
+.nameContainer-edit input {
+  height: 50%;
+  width: 40%;
+  margin-left: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  color: #7a7c82;
+  font-size: x-large;
+}
+.nameContainer-edit input:focus {
+  outline: none;
+  box-shadow: 7px 5px 5px gray;
+}
+
