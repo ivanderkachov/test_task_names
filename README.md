@@ -53,3 +53,6 @@
 * PostgreSQL DB, Sequelize, Docker
 * Authotization using guards, JWT, bcryptjs
 * Validations on Client (Formik, Yup) and Server (Validation pipes)
+
+## Video walkthrough
+https://drive.google.com/file/d/1dR6DyN58CUYoCLi4VCrtUOtWNOkJQbrN/view?usp=sharing

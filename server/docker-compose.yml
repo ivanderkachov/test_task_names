@@ -1,26 +1,6 @@
 version: '3.8'
 
 services:
-  # node_backend:
-  #   container_name: node_backend
-  #   image: nest_test:0.0.1
-  #   build:
-  #     context: .
-  #   ports:
-  #     - "8090:8090"
-  #   # environment:
-  #   #   - PORT=8091
-  #   #   - PGDATABASE=test_db
-  #   #   - PGUSER=user1
-  #   #   - PGPASSWORD=12345
-  #   #   - PGHOST=node_db
-  #   env_file:
-  #     - .development.env
-  #   volumes:
-  #     - .:/app
-  #     - /app/node_modules
-  #   depends_on:
-  #     - node_db
   node_db:
     container_name: node_db
     image: "postgres:14"
@@ -28,10 +8,6 @@ services:
       - "5432:5432"
     env_file:
       - .development.env
-    # environment:
-    #   - POSTGRES_USER=user1
-    #   - POSTGRES_PASSWORD=12345
-    #   - POSTGRES_DB=test_db
     volumes:
       - nps_data:/var/lib/postgresql/data
 volumes:
